@@ -390,7 +390,7 @@
             </div>
             <div class="summary-card">
                 <div class="number">6/7</div>
-                <div class="label">Premature Advancement</div>
+                <div class="label">Placement Misalignment</div>
             </div>
             <div class="summary-card">
                 <div class="number">4/7</div>
@@ -407,7 +407,7 @@
             <div class="visualization">
                 <div class="bar-chart">
                     <div class="bar-row">
-                        <div class="bar-label">Premature Advancement</div>
+                        <div class="bar-label">Placement Misalignment</div>
                         <div class="bar-container">
                             <div class="bar-fill" style="width: 86%; background: linear-gradient(90deg, #e74c3c, #c0392b);">6/7 (86%)</div>
                         </div>
@@ -452,60 +452,67 @@
             </div>
         </div>
 
-        <!-- Pattern 1: Premature Advancement -->
+        <!-- Pattern 1: Placement Misalignment -->
         <div class="section">
             <div class="section-header">
                 <div class="icon" style="background: #fde8e8; color: var(--danger);">⚠️</div>
-                <h2>Pattern 1: Premature Grade-Level Advancement</h2>
+                <h2>Pattern 1: Placement Misalignment</h2>
             </div>
             <div class="pattern-card">
                 <div class="pattern-header">
-                    <h3>Students placed above verified skill level</h3>
+                    <h3>Content level doesn't match verified skill level</h3>
                     <span class="pattern-badge">6/7 Students</span>
                 </div>
                 <table>
                     <thead>
                         <tr>
                             <th>Student</th>
+                            <th>Direction</th>
                             <th>Issue</th>
-                            <th>Actual vs Required</th>
+                            <th>Evidence</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><a href="https://nicka-nto.github.io/Gia-Clark-WinterMAP-2026/index-v2.html" class="student-link">Gia Clark</a></td>
+                            <td><span class="metric-highlight metric-bad">Too Hard</span></td>
                             <td>Placed in G3 before mastering G2 fluency</td>
-                            <td><span class="metric-highlight metric-bad">83 WCPM</span> vs 104 required</td>
+                            <td>83 WCPM vs 104 required</td>
                         </tr>
                         <tr>
                             <td><a href="https://nicka-nto.github.io/Ethan-Bale-WinterMAP-2026/index-v2.html" class="student-link">Ethan Bale</a></td>
-                            <td>Initial Lalilo placement too easy, then misaligned</td>
-                            <td><span class="metric-highlight">Lesson 167</span> — coasting at >90% accuracy</td>
+                            <td><span class="metric-highlight" style="background: #d4edda; color: #155724;">Too Easy</span></td>
+                            <td>Lalilo placement allowed coasting</td>
+                            <td>>90% accuracy, 3.2 XP/min — no productive struggle</td>
                         </tr>
                         <tr>
                             <td><a href="https://nicka-nto.github.io/Rivers-WinterMAP-2026/" class="student-link">Rivers Yong</a></td>
+                            <td><span class="metric-highlight metric-bad">Too Hard</span></td>
                             <td>G2-3 content with G1 prerequisites only</td>
-                            <td><span class="metric-highlight metric-bad">41 WCPM</span> vs 104 required</td>
+                            <td>41 WCPM vs 104 required</td>
                         </tr>
                         <tr>
                             <td><a href="https://nicka-nto.github.io/Raphael-Shinar-WinterMAP-2026/" class="student-link">Raphael Shinar</a></td>
+                            <td><span class="metric-highlight metric-bad">Too Hard</span></td>
                             <td>Began G3 content when G2 was appropriate</td>
-                            <td><span class="metric-highlight metric-bad">20%</span> comprehension at Level P</td>
+                            <td>20% comprehension at Level P</td>
                         </tr>
                         <tr>
                             <td><a href="https://nicka-nto.github.io/Aiden-Richardson-WinterMAP-2026/index-v2.html" class="student-link">Aiden Richardson</a></td>
+                            <td><span class="metric-highlight metric-bad">Too Hard</span></td>
                             <td>ClearFluency G2 before passing Level J ORF</td>
-                            <td><span class="metric-highlight metric-bad">62 WCPM</span> vs 67 required</td>
+                            <td>62 WCPM vs 67 required</td>
                         </tr>
                         <tr>
                             <td><a href="https://nicka-nto.github.io/Leila-Abony-WinterMAP-2026/index-v2.html" class="student-link">Leila Abony</a></td>
+                            <td><span class="metric-highlight metric-bad">Too Hard</span></td>
                             <td>G2 advancement with failing fluency benchmark</td>
-                            <td><span class="metric-highlight metric-bad">54 WCPM</span> vs 104 required</td>
+                            <td>54 WCPM vs 104 required</td>
                         </tr>
                     </tbody>
                 </table>
                 <div class="root-cause">
-                    <strong>🔍 Root Cause:</strong> Students placed in grade-level content before meeting ORF/fluency prerequisites, leading to accuracy drops and ineffective practice time.
+                    <strong>🔍 Root Cause:</strong> Content not calibrated to student's zone of proximal development. Too hard = frustration and low accuracy. Too easy = coasting without growth. Both waste learning time.
                 </div>
             </div>
         </div>
@@ -802,8 +809,8 @@
             <div class="top-issues">
                 <div class="issue-card">
                     <span class="rank">#1</span>
-                    <h3>Placement Algorithm Failures</h3>
-                    <p>Students consistently placed above their verified skill level, leading to frustration, low accuracy, and ineffective practice. 86% of students affected.</p>
+                    <h3>Placement Misalignment</h3>
+                    <p>Content not calibrated to skill level — 5 students placed too hard (frustration, low accuracy), 1 placed too easy (coasting). 86% affected.</p>
                 </div>
                 <div class="issue-card" style="background: linear-gradient(135deg, #f39c12 0%, #d68910 100%);">
                     <span class="rank">#2</span>
